@@ -11,9 +11,9 @@ Limitations:
 '''
 
 try:
-  from cPickle import dumps, loads, dump, load
+  from cPickle import dumps, loads
 except ImportError:
-  from pickle import dumps, loads, dump, load
+  from pickle import dumps, loads
 
 
 def s_dump(iterable_to_pickle, file_obj):
